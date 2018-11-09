@@ -1,1 +1,38 @@
+body {
+  background: #fff;
+}
 
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.section {
+  flex: 1; /*grow*/
+  border: 1px solid;
+}
+
+@media (max-width: 768px) { /*breakpoint*/
+  .container {
+    flex-direction: column;
+  }
+}
+
+#sander {
+  background-color: crimson;
+  color: snow;
+}
+
+#daniel {
+  background-color: snow;
+}
+
+#ricardo {
+  background-color: blue;
+  color: snow;
+}
